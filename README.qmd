@@ -1,0 +1,15 @@
+---
+title: "Appex 03"
+format: 
+  gfm:
+    self-contained: true
+---
+
+```{r}
+#| label: load-pkgs
+#| message: false
+#| warning: false
+library(tidyverse)
+# run once in console: devtools::install_github("LucyMcGowan/touringplans")
+library(touringplans)
+```
